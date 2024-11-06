@@ -1,0 +1,12 @@
+Build Image for all Applications
+
+- Docker build -t mhsedky/restaurantlisting:latest .
+- . represents current director
+
+
+
+Push Image to DockerHub
+
+- Login to Docker Hub using
+	> docker login
+- docker push mhsedky/restaurantlisting:latest
