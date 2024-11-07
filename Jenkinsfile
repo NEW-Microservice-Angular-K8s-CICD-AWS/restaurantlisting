@@ -36,7 +36,7 @@ pipeline {
             steps {
                 script {
                     def token = "squ_2511d2c4417e596c0de593a7ae5ff31364ac34cd"
-                    def sonarQubeUrl = "http://18.171.155.124/:9000/api"
+                    def sonarQubeUrl = "http://18.171.155.124:9000/api"
                     def componentKey = "com.codeddecode:restaurantlisting"
                     def coverageThreshold = 80.0
 
